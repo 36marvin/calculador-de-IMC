@@ -1,0 +1,96 @@
+* {
+    color: white
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-color: rgb(34, 219, 158);
+}
+
+.top-text {
+    margin: 30px auto 30px;
+    width: max-content;
+
+    font-size: 20px;
+    font-family: "Monospace";
+}
+
+.app-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .larger-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+} */
+
+.top-text {
+    font-weight: bold !important;
+}
+
+.imc-result {
+    margin: 0 auto 0;
+    width: max-content;
+}
+
+.final-imc {
+    /* color: rgb(250, 78, 78); */
+    font-weight: bold;
+    font-family: "Monospace";
+}
+
+.label {
+    margin: 0 auto 0;
+    width: max-content;
+}
+
+.input-div {
+    margin: 0px auto 0px;
+}
+
+/* .final-imc {
+    display: inline;
+} */
+
+.output-div {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+input {
+    border-radius: 5px;
+    border-style: none;
+    color:black;
+    display: block;
+    min-height: 30px;
+}
+
+.input-elems {
+    margin-bottom: 20px;
+}
+
+#calcular-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 78, 78);
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0px 40px 0px;
+
+    min-height: 30px;
+}
+
+#calcular-btn:hover {
+    animation-duration: 2000ms;
+    background-color: rgb(20, 187, 48);
+}
+
+#calcular-btn:active {
+    background-color: rgb(250, 161, 78);
+}
